@@ -1,5 +1,29 @@
+<style id="publication_css">
+  .pubtitle {
+  margin-bottom: 0.5em;
+  line-height: 1.2em;
+  font-weight: bold;
+}
+</style>
 
-          <div class="publications">
-            <h2>Publications</h2>
-            {% bibliography -f papers -q @*[selected=true]* %}
-          </div>
+
+<div class="publications">
+  <h2>Publications</h2>
+  <p>(*: Equal Contribution)</p>
+  {% assign publications = site.publications | sort: "year" | reverse %}
+  {% for pub in publications %}
+  <div class="pubitem">
+    <div class="pubtitle">{{ pub.title }}</div>
+    <div class="pubauthors">{{ pub.authors }}</div>
+    <div class="pubinfo">In {{ pub.publication }}.</div>
+    <div class="row mt-1">
+      {% if pub.pdf != '' %}
+      <a href={{ pub.pdf }} class="badge badge-primary ml-3 mr-2 pl-2 pr-2">pdf</a>
+      {% endif %}
+      {% if pub.code != '' %}
+      <a href={{ pub.code }} class="badge badge-info mr-3 pl-2 pr-2">code</a>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
