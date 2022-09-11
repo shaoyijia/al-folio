@@ -12,10 +12,16 @@
   <p>(*: Equal Contribution)</p>
   {% assign publications = site.publications | sort: "year" | reverse %}
   {% for pub in publications %}
-  <div class="pubitem">
+  <div class="pubitem mb-3">
     <div class="pubtitle">{{ pub.title }}</div>
     <div class="pubauthors">{{ pub.authors }}</div>
-    <div class="pubinfo">In {{ pub.publication }}.</div>
+    <div class="pubinfo">
+      {% if pub.publication != '' %}
+        In {{ pub.publication }}.
+      {% else %}
+        Under submission.
+      {% endif %}
+    </div>
     <div class="row mt-1">
       {% if pub.pdf != '' %}
       <a href={{ pub.pdf }} class="badge badge-primary ml-3 mr-2 pl-2 pr-2">pdf</a>
