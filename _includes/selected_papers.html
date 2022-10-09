@@ -16,11 +16,7 @@
     <div class="pubtitle">{{ pub.title }}</div>
     <div class="pubauthors">{{ pub.authors }}</div>
     <div class="pubinfo">
-      {% if pub.publication != '' %}
-        In {{ pub.publication }}.
-      {% else %}
-        Under submission.
-      {% endif %}
+      {{ pub.publication }}
     </div>
     <div class="row mt-1">
       {% if pub.pdf != '' %}
