@@ -2,7 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+# SEO
+title: Yijia Shao's Personal Website # the website title (currently, we only use title for better seo, full name will be displayed on the webpage as the title)
+tagline: The personal website of Yijia Shao
+author: Yijia Shao
+
 first_name: Yijia
 middle_name: 
 last_name: Shao
