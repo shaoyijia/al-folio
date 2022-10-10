@@ -13,7 +13,13 @@
   {% assign publications = site.publications | sort: "year" | reverse %}
   {% for pub in publications %}
   <div class="pubitem mb-3">
-    <div class="pubtitle">{{ pub.title }}</div>
+    <div class="pubtitle">
+      {% if pub.official_link != '' %}
+        <a href={{ pub.official_link }} style="color: black">{{ pub.title }}</a>
+      {% else %}
+        {{ pub.title }}
+      {% endif %}
+    </div>
     <div class="pubauthors">{{ pub.authors }}</div>
     <div class="pubinfo">
       {{ pub.publication }}
