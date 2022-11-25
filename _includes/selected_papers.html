@@ -15,7 +15,7 @@
   <div class="pubitem mb-3">
     <div class="pubtitle">
       {% if pub.official_link != '' %}
-        <a href={{ pub.official_link }} style="color: black">{{ pub.title }}</a>
+        <a href={{ pub.official_link }}><span class="plain-link">{{ pub.title }}</span></a>
       {% else %}
         {{ pub.title }}
       {% endif %}
