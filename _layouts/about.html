@@ -54,17 +54,26 @@ layout: default
             {{ content }}
           </div>
 
-          {% if page.awards -%}
-          {%- include awards.html %}
-          {%- endif %}
+          
+          <!-- Recent news -->
+          <div class="feature-box" style="margin-bottom: 40px;">
+            {%- include news.html %}
+          </div>
 
 
-          {% if page.news -%}
-          {%- include news.html %}
-          {%- endif %}
           {% if page.selected_papers -%}
             <!-- Selected papers -->
-            {%- include selected_papers.html %}
+            <div class="feature-box" style="margin-bottom: 50px;">
+              {%- include selected_papers.html %}
+            </div>
+          {%- endif %}
+
+
+          {% if page.awards -%}
+            <!-- Selected awards -->
+            <div class="feature-box" style="margin-bottom: 30px;">
+              {%- include awards.html %}
+            </div>
           {%- endif %}
           
         </article>
