@@ -10,7 +10,11 @@
 <div class="publications">
   <h2>Publications</h2>
   <p>(*: Equal Contribution)</p>
-  {% assign publications = site.publications | sort: "year" | reverse %}
+  <!--{% assign publications = site.publications | sort: "year" | reverse %}-->
+  {% assign sticky_pubs = site.publications | where_exp: "item", "item.sticky" | sort: "year" | reverse %}
+  {% assign non_sticky_pubs = site.publications | where_exp: "item", "item.sticky != true" | sort: "year" | reverse %}
+  {% assign publications = sticky_pubs | concat: non_sticky_pubs %}  
+
   {% for pub in publications %}
   <div class="pubitem mb-3">
     <div class="pubtitle">

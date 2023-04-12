@@ -1,0 +1,10 @@
+---
+layout: default
+title: 'Continual Pre-training of Language Models'
+authors: Zixuan Ke*, <strong>Yijia Shao*</strong>, Haowei Lin*, Tatsuya Konishi, Gyuhak Kim, Bing Liu
+publication: Will appear in ICLR 2023.
+year: 2023.1
+pdf: 'https://arxiv.org/abs/2302.03241'
+code: 'https://github.com/UIC-Liu-Lab/ContinualLM'
+official_link: 'https://openreview.net/pdf?id=m_GDIItaI3o'
+---
