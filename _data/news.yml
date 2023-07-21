@@ -5,3 +5,5 @@
   text: Our work "Continual Pre-training of Language Models" is accepted by ICLR2023, the <a href="https://openreview.net/pdf?id=m_GDIItaI3o">camera-ready version</a> and <a href="https://github.com/UIC-Liu-Lab/ContinualLM">code</a> are now released.
 - date: 2023-04-28
   text: Guest talk on "Thoughts on NLP Research in the (Post-)LLM Era" at SMS seminar, Peking University. [<a href="assets/pdf/thoughts_on_llm20230428.pdf">slides</a>]
+- date: 2023-07-09
+  text: Two works on <a href="https://aclanthology.org/2023.acl-short.109/">NLP continual learning</a> and <a href="https://aclanthology.org/2023.acl-long.241/">evaluation</a> are presented at ACL'23.
