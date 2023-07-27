@@ -8,7 +8,7 @@
 
 
 <div class="publications">
-  <h2>Publications</h2>
+  <h2>Selected Publications</h2>
   <p>(*: Equal Contribution)</p>
   <!--{% assign publications = site.publications | sort: "year" | reverse %}-->
   {% assign sticky_pubs = site.publications | where_exp: "item", "item.sticky" | sort: "year" | reverse %}
