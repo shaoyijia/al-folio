@@ -185,6 +185,7 @@ $ cd <your-repo-name>
 $ bundle install
 $ bundle exec jekyll serve
 ```
+[Added by Yijia] On the mac, due to some config problem, need to run with `sudo`.
 
 Now, feel free to customize the theme however you like (don't forget to change the name!).
 After you are done, **commit** your final changes.
