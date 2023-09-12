@@ -56,7 +56,7 @@ For concrete examples, I highly recommend [cs-sop](https://cs-sop.notion.site/cs
 You definitely need to study hard in your undergraduate years, but honestly speaking, GPA, GRE/TOFEL scores don't have a hight weight in PhD admissions. It's wise to allocate more time to research or other more important things.
 
 #### Preparing for the Interviews
-After assembling your application package and completing your online applications in December, you might be tempted to take a break. But hold on – the journey isn't over! Most top CS programs include interviews as part of their admission process, given the abundance of strong applicants. It's crucial to be prepared for them.
+After assembling your application package and completing your online applications in December, you might be tempted to take a break. But hold on – the journey isn't over! Most top CS programs include interviews as part of their admission process, given the abundance of strong applicants, it's crucial to be prepared for them.
 
 **A definitely asked question: Describe one of your research projects.**
 I didn't meet an exception in the 9 interviews I took. Therefore, it's wise to be well-prepared. Anticipating the time you'll be given for your response can be tricky, so I advise crafting a 3-sentence summary, a 5-minute detailed response, and a comprehensive 15-minute description of your project. You also need to be familiar with all the details around your chosen project since professors are likely to ask you some follow-up questions. Tailor your response to the specific professor you're conversing with. For instance, if they're well-versed in your field, you might skip the background information. If a segment of your work aligns with their interests, delve deeper into that area.
