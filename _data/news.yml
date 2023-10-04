@@ -1,6 +1,3 @@
-- date: 2023-04-12
-  text: I will join <a href="https://nlp.stanford.edu/">Stanford NLP</a> to pursue my PhD. Looking forward to the new endeavor ahead!!
-  sticky: true
 - date: 2023-04-01
   text: Our work "Continual Pre-training of Language Models" is accepted by ICLR2023, the <a href="https://openreview.net/pdf?id=m_GDIItaI3o">camera-ready version</a> and <a href="https://github.com/UIC-Liu-Lab/ContinualLM">code</a> are now released.
 - date: 2023-04-28
